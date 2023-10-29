@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Groceries List</title>
+</head>
+<body>
+    <h1>Grocery List</h1>
+    <ul>
+        <!-- Loop through groceries and display them as list items -->
+        <li *ngFor="let item of groceries">
+            {{ item.name }}: {{ item.quantity }}
+        </li>
+    </ul>
+</body>
+</html>
